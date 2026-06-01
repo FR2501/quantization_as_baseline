@@ -7,13 +7,13 @@ This repository accompanies our paper "The undervalued role of quantization as a
 All Python dependencies are listed in the *requirements.txt*, install those as usual. We use Python 3.14.3, other versions might work as well.
 
 To fully reproduce all experiments we report, the following programs must be available (either via PATH or by placing the binaries into this directory):
-    - BSC [https://github.com/IlyaGrebnov/libbsc](https://github.com/IlyaGrebnov/libbsc)
-    - Gzip [https://www.gzip.org/](https://www.gzip.org/)
-    - Zstd [https://github.com/facebook/zstd](https://github.com/facebook/zstd)
+- BSC [https://github.com/IlyaGrebnov/libbsc](https://github.com/IlyaGrebnov/libbsc)
+- Gzip [https://www.gzip.org/](https://www.gzip.org/)
+- Zstd [https://github.com/facebook/zstd](https://github.com/facebook/zstd)
 
 The datasets should be placed into *./datasets/ucr_tsca* and *./datasets/lfzip*, respectively, and can be obtained from
-    - [https://www.cs.ucr.edu/%7Eeamonn/time_series_data_2018/](https://www.cs.ucr.edu/%7Eeamonn/time_series_data_2018/) and
-    - [https://github.com/shubhamchandak94/LFZip/tree/master/data/evaluation_datasets](https://github.com/shubhamchandak94/LFZip/tree/master/data/evaluation_datasets).
+- [https://www.cs.ucr.edu/%7Eeamonn/time_series_data_2018/](https://www.cs.ucr.edu/%7Eeamonn/time_series_data_2018/) and
+- [https://github.com/shubhamchandak94/LFZip/tree/master/data/evaluation_datasets](https://github.com/shubhamchandak94/LFZip/tree/master/data/evaluation_datasets).
 
 If you want to include the our synthetic datasets as well, run *./synth_datasets.py*.
 
